@@ -2753,9 +2753,10 @@ const LIGNE_PARTAGE = "principal";
 let syncTimer = null;
 let syncEnCours = false;
 let syncErreur = false;
+let syncErreurMsg = "";
 
 function envoyerEtatPartage(){
-  if (!window.sb) return;
+  if (!window.sb) { syncErreur = true; syncErreurMsg = "client Supabase absent"; majBandeau(); return; }
   clearTimeout(syncTimer);
   syncTimer = setTimeout(async ()=>{
     syncEnCours = true; majBandeau();
@@ -2763,7 +2764,9 @@ function envoyerEtatPartage(){
       const { error } = await window.sb.from(TABLE_PARTAGE)
         .upsert({ id: LIGNE_PARTAGE, data: etat, maj_le: new Date().toISOString() });
       syncErreur = !!error;
-    }catch(e){ syncErreur = true; }
+      syncErreurMsg = error ? (error.message || error.code || "erreur inconnue") : "";
+      if (error) console.error("Sync Supabase (upsert):", error);
+    }catch(e){ syncErreur = true; syncErreurMsg = (e && e.message) || "erreur réseau"; console.error("Sync Supabase (exception):", e); }
     syncEnCours = false; majBandeau();
   }, 600);
 }
@@ -2772,6 +2775,7 @@ async function chargerEtatPartage(){
   if (!window.sb) return null;
   try{
     const { data, error } = await window.sb.from(TABLE_PARTAGE).select("data").eq("id", LIGNE_PARTAGE).maybeSingle();
+    if (error) console.error("Sync Supabase (select):", error);
     if (error || !data) return null;
     return data.data || null;
   }catch(e){ return null; }
@@ -2803,7 +2807,7 @@ function majBandeau(){
     e.classList.add("err"); return;
   }
   if (syncEnCours){ e.textContent = "Enregistrement en cours…"; return; }
-  if (syncErreur){ e.textContent = "Enregistré dans ce navigateur (échec de synchronisation en ligne)"; e.classList.add("err"); return; }
+  if (syncErreur){ e.textContent = "Échec de synchronisation" + (syncErreurMsg ? " : " + syncErreurMsg : "") + " (enregistré localement)"; e.classList.add("err"); return; }
   e.textContent = etat.maj
     ? "Enregistré et partagé · " + new Date(etat.maj).toLocaleString("fr-FR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})
     : "Données d'exemple — toute modification est enregistrée et partagée";
