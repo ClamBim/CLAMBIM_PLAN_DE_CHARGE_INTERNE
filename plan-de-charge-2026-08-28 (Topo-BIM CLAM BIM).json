@@ -1,0 +1,615 @@
+{
+ "debut": "2026-08-24",
+ "nbSem": 52,
+ "maj": "2026-08-28T10:30:09.914Z",
+ "collabs": [
+  {
+   "id": "c1",
+   "nom": "Abdelhamid",
+   "metier": "Chef de Projet & Modeleur Revit",
+   "cap": 5,
+   "conges": "ABDELHAMID HACHOUM"
+  },
+  {
+   "id": "c2",
+   "nom": "Amal",
+   "metier": "C/Q & Modeleuse Topo",
+   "cap": 5,
+   "conges": "AMAL EL FADILI"
+  },
+  {
+   "id": "c3",
+   "nom": "Marouane",
+   "metier": "Modeleur Topo / Revit",
+   "cap": 5,
+   "conges": "MAROINE LAOUY"
+  },
+  {
+   "id": "c4",
+   "nom": "Mouad",
+   "metier": "Modeleur Topo / Revit",
+   "cap": 5,
+   "conges": "MOUAD ABIDALLAH"
+  },
+  {
+   "id": "c5",
+   "nom": "Rayane",
+   "metier": "Modeleur Topo / Revit",
+   "cap": 5,
+   "conges": "RAYANE ELYOUSFI"
+  },
+  {
+   "id": "c6",
+   "nom": "Rim 2",
+   "metier": "Modeleuse Revit / Archicad",
+   "cap": 5,
+   "conges": "RIM ELOUALI"
+  },
+  {
+   "id": "cjrxn06",
+   "nom": "Hajar Bousalah",
+   "metier": "Modeleuse Revit",
+   "cap": 0,
+   "conges": "HAJAR BOUSALAH"
+  },
+  {
+   "id": "cqumkpk",
+   "nom": "Hamza Ouradi",
+   "metier": "Modeleur Revit",
+   "cap": 0,
+   "conges": "HAMZA OURADI"
+  },
+  {
+   "id": "cxk4uqs",
+   "nom": "Hiba Hachoum",
+   "metier": "Modeleuse Revit",
+   "cap": 0,
+   "conges": "HIBA HACHOUM"
+  },
+  {
+   "id": "ckzet9p",
+   "nom": "Khadija Ouba",
+   "metier": "Modeleuse Revit",
+   "cap": 0,
+   "conges": "KHADIJA OUBA"
+  },
+  {
+   "id": "c2tbjxp",
+   "nom": "Khaoula El Moutchou",
+   "metier": "Modeleuse Revit",
+   "cap": 0,
+   "conges": "KHAOULA EL MOUTCHOU"
+  },
+  {
+   "id": "csz3s6e",
+   "nom": "Loubna Darif",
+   "metier": "Cheffe de Projet",
+   "cap": 0,
+   "conges": "LOUBNA DARIF"
+  },
+  {
+   "id": "cfpvc3m",
+   "nom": "Oumaima Benabbou",
+   "metier": "Modeleuse Revit",
+   "cap": 0,
+   "conges": "OUMAIMA BENABBOU"
+  },
+  {
+   "id": "cei9801",
+   "nom": "Reda El Amry",
+   "metier": "Modeleur Revit",
+   "cap": 0,
+   "conges": "REDA EL AMRY"
+  },
+  {
+   "id": "cmwzbx5",
+   "nom": "Rim Yousmi",
+   "metier": "Modeleuse Revit",
+   "cap": 0,
+   "conges": "RIM YOUSMI"
+  },
+  {
+   "id": "c71iddh",
+   "nom": "Salma Benassou",
+   "metier": "Modeleuse Revit",
+   "cap": 0,
+   "conges": "SALMA BENASSOU"
+  },
+  {
+   "id": "cxhkjuo",
+   "nom": "Yousra Idrissi Serhrouchni",
+   "metier": "Assistante Administratif & RH",
+   "cap": 0,
+   "conges": "YOUSRA IDRISSI SERHROUCHNI"
+  },
+  {
+   "id": "ca3gw24",
+   "nom": "Deyae Hanine",
+   "metier": "Modeleuse Revit",
+   "cap": 0,
+   "conges": "DEYAE HANINE"
+  }
+ ],
+ "affaires": [
+  {
+   "id": "aj822ez",
+   "code": "AFF-002",
+   "libelle": "Lycée - Luxembourg",
+   "societe": "DGEMA",
+   "type": "Bâtiment 2D",
+   "statut": "Bon de commande",
+   "devis": "",
+   "facture": "",
+   "vendu": 8,
+   "debut": "2026-08-10",
+   "fin": "2026-09-01",
+   "avancement": "Archivé",
+   "notifCQ": "2026-08-28T09:55:37.648Z",
+   "notifVal": "2026-08-28T09:58:14.164Z",
+   "realise": 12,
+   "planifie": 10,
+   "observation": "test"
+  }
+ ],
+ "feries": {
+  "2026-08-14": "Oued Eddahab",
+  "2026-08-20": "Révolution du Roi et du Peuple",
+  "2026-08-21": "Fête de la Jeunesse",
+  "2026-10-31": "Aïd Al Wahda",
+  "2026-11-06": "Marche Verte",
+  "2026-11-18": "Fête de l'Indépendance",
+  "2026-08-25": "Aïd al-Mawlid",
+  "2026-01-01": "Nouvel An",
+  "2026-01-11": "Manifeste de l'Indépendance",
+  "2026-01-14": "Nouvel An Amazigh",
+  "2026-03-20": "Aïd al-Fitr",
+  "2026-03-21": "Aïd al-Fitr (2e jour)",
+  "2026-05-01": "Fête du Travail",
+  "2026-05-27": "Aïd al-Adha",
+  "2026-05-28": "Aïd al-Adha (2e jour)",
+  "2026-06-16": "1er Moharram",
+  "2026-07-30": "Fête du Trône",
+  "2027-01-01": "Nouvel An",
+  "2027-01-11": "Manifeste de l'Indépendance",
+  "2027-01-14": "Nouvel An Amazigh",
+  "2027-05-01": "Fête du Travail",
+  "2027-07-30": "Fête du Trône",
+  "2027-08-14": "Oued Eddahab",
+  "2027-08-20": "Révolution du Roi et du Peuple",
+  "2027-08-21": "Fête de la Jeunesse"
+ },
+ "jours": {
+  "c1": {},
+  "c4": {},
+  "c2": {},
+  "c3": {},
+  "c5": {},
+  "c6": {},
+  "ckzet9p": {},
+  "cei9801": {},
+  "csz3s6e": {},
+  "c2tbjxp": {},
+  "cmwzbx5": {}
+ },
+ "conges": {
+  "version": 1,
+  "annee": 2026,
+  "salaries": [
+   {
+    "nom": "ABDELHAMID HACHOUM",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "AMAL EL FADILI",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "DEYAE HANINE",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": "2026-08-24"
+   },
+   {
+    "nom": "HAJAR BOUSALAH",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "HAMZA OURADI",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "HIBA HACHOUM",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "KHADIJA OUBA",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "KHAOULA EL MOUTCHOU",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "LOUBNA DARIF",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "MAROINE LAOUY",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "MOUAD ABIDALLAH",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "OUMAIMA BENABBOU",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "RAYANE ELYOUSFI",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "REDA EL AMRY",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "RIM ELOUALI",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "RIM YOUSMI",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "SALMA BENASSOU",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   },
+   {
+    "nom": "YOUSRA IDRISSI SERHROUCHNI",
+    "quota": 18,
+    "reliquat": 0,
+    "dateEmbauche": ""
+   }
+  ],
+  "absences": {
+   "ABDELHAMID HACHOUM": {
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-08-24": "cp",
+    "2026-08-25": "cp",
+    "2026-08-27": "cp"
+   },
+   "AMAL EL FADILI": {
+    "2026-09-14": "cp",
+    "2026-09-15": "cp",
+    "2026-09-16": "cp",
+    "2026-09-17": "cp",
+    "2026-09-18": "cp"
+   },
+   "HAJAR BOUSALAH": {
+    "2026-08-10": "cp",
+    "2026-08-11": "cp",
+    "2026-08-12": "cp",
+    "2026-08-13": "cp",
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-08-24": "cp",
+    "2026-09-14": "cp",
+    "2026-09-15": "cp",
+    "2026-09-16": "cp",
+    "2026-09-17": "cp",
+    "2026-09-18": "cp",
+    "2026-09-21": "cp",
+    "2026-09-22": "cp",
+    "2026-09-23": "cp",
+    "2026-09-24": "cp"
+   },
+   "HAMZA OURADI": {
+    "2026-07-31": "cp",
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-08-24": "cp",
+    "2026-08-25": "cp",
+    "2026-08-27": "cp"
+   },
+   "HIBA HACHOUM": {
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-08-24": "cp",
+    "2026-08-25": "cp",
+    "2026-08-27": "cp",
+    "2026-08-28": "mal"
+   },
+   "KHADIJA OUBA": {
+    "2026-08-10": "cp",
+    "2026-08-11": "cp",
+    "2026-08-12": "cp",
+    "2026-08-13": "cp",
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-08-24": "cp",
+    "2026-08-25": "cp"
+   },
+   "KHAOULA EL MOUTCHOU": {
+    "2026-07-27": "cp",
+    "2026-07-28": "cp",
+    "2026-07-29": "cp",
+    "2026-07-31": "cp",
+    "2026-09-07": "cp",
+    "2026-09-08": "cp",
+    "2026-09-09": "cp",
+    "2026-09-10": "cp",
+    "2026-09-11": "cp"
+   },
+   "LOUBNA DARIF": {
+    "2026-07-10": "cp",
+    "2026-07-13": "cp",
+    "2026-07-14": "cp",
+    "2026-07-15": "cp",
+    "2026-07-16": "cp",
+    "2026-07-17": "cp",
+    "2026-07-20": "cp",
+    "2026-07-21": "cp",
+    "2026-07-22": "cp",
+    "2026-07-23": "cp",
+    "2026-07-24": "cp",
+    "2026-07-27": "cp",
+    "2026-07-28": "cp",
+    "2026-07-29": "cp",
+    "2026-08-10": "cp",
+    "2026-08-11": "cp",
+    "2026-08-12": "cp",
+    "2026-08-13": "cp"
+   },
+   "MAROINE LAOUY": {
+    "2026-06-01": "cp",
+    "2026-06-02": "cp",
+    "2026-06-03": "cp",
+    "2026-06-04": "cp",
+    "2026-06-05": "cp",
+    "2026-08-24": "cp",
+    "2026-08-25": "cp",
+    "2026-08-27": "cp",
+    "2026-08-28": "cp"
+   },
+   "MOUAD ABIDALLAH": {
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-08-24": "cp",
+    "2026-08-25": "cp",
+    "2026-08-27": "cp",
+    "2026-08-28": "cp",
+    "2026-08-31": "cp",
+    "2026-09-01": "cp",
+    "2026-09-02": "cp"
+   },
+   "OUMAIMA BENABBOU": {
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-08-24": "cp",
+    "2026-08-25": "cp",
+    "2026-08-27": "cp",
+    "2026-08-28": "cp",
+    "2026-08-31": "cp"
+   },
+   "RAYANE ELYOUSFI": {
+    "2026-08-10": "cp",
+    "2026-08-11": "cp",
+    "2026-08-12": "cp",
+    "2026-08-13": "cp"
+   },
+   "RIM ELOUALI": {
+    "2026-08-03": "cp",
+    "2026-08-04": "cp",
+    "2026-08-05": "cp",
+    "2026-08-06": "cp",
+    "2026-08-07": "cp",
+    "2026-08-10": "cp",
+    "2026-08-11": "cp",
+    "2026-08-12": "cp",
+    "2026-08-13": "cp",
+    "2026-08-17": "cp"
+   },
+   "RIM YOUSMI": {
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-11-09": "cp",
+    "2026-11-10": "cp",
+    "2026-11-11": "cp",
+    "2026-11-12": "cp",
+    "2026-11-13": "cp",
+    "2026-11-16": "cp",
+    "2026-11-17": "cp",
+    "2026-11-19": "cp"
+   },
+   "SALMA BENASSOU": {
+    "2026-07-27": "cp",
+    "2026-07-28": "cp",
+    "2026-07-29": "cp",
+    "2026-07-31": "cp",
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp"
+   },
+   "YOUSRA IDRISSI SERHROUCHNI": {
+    "2026-07-31": "cp",
+    "2026-08-17": "cp",
+    "2026-08-18": "cp",
+    "2026-08-19": "cp",
+    "2026-08-24": "cp",
+    "2026-08-25": "cp",
+    "2026-08-27": "cp",
+    "2026-08-28": "cp",
+    "2026-08-31": "cp"
+   }
+  },
+  "feries": {
+   "2026-08-14": "Oued Eddahab",
+   "2026-08-20": "Révolution du Roi et du Peuple",
+   "2026-08-21": "Fête de la Jeunesse",
+   "2026-10-31": "Aïd Al Wahda",
+   "2026-11-06": "Marche Verte",
+   "2026-11-18": "Fête de l'Indépendance",
+   "2026-08-25": "Aïd al-Mawlid",
+   "2026-01-01": "Nouvel An",
+   "2026-01-11": "Manifeste de l'Indépendance",
+   "2026-01-14": "Nouvel An Amazigh",
+   "2026-03-20": "Aïd al-Fitr",
+   "2026-03-21": "Aïd al-Fitr (2e jour)",
+   "2026-05-01": "Fête du Travail",
+   "2026-05-27": "Aïd al-Adha",
+   "2026-05-28": "Aïd al-Adha (2e jour)",
+   "2026-06-16": "1er Moharram",
+   "2026-07-30": "Fête du Trône",
+   "2027-01-01": "Nouvel An",
+   "2027-01-11": "Manifeste de l'Indépendance",
+   "2027-01-14": "Nouvel An Amazigh",
+   "2027-05-01": "Fête du Travail",
+   "2027-07-30": "Fête du Trône",
+   "2027-08-14": "Oued Eddahab",
+   "2027-08-20": "Révolution du Roi et du Peuple",
+   "2027-08-21": "Fête de la Jeunesse"
+  },
+  "seuil": 7,
+  "defQuota": 18
+ },
+ "hebdo": {
+  "version": 2,
+  "theme": null,
+  "view": "planning",
+  "weeks": {
+   "2026-08-17": {
+    "focus": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "events": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "tasks": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "habits": [],
+    "todos": []
+   },
+   "2026-08-24": {
+    "focus": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "events": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "tasks": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "habits": [],
+    "todos": []
+   }
+  }
+ },
+ "codePerso": "ihlb9f-1behowx",
+ "codePersoInit": true,
+ "societes": [
+  "DGEMA",
+  "AVE",
+  "BIMER"
+ ],
+ "types": [
+  {
+   "nom": "Topographie",
+   "coul": "topo"
+  },
+  {
+   "nom": "Bâtiment 2D",
+   "coul": "bat"
+  },
+  {
+   "nom": "Modélisation Ndp",
+   "coul": "ndp"
+  },
+  {
+   "nom": "Infrastructure ferroviaire",
+   "coul": "infra"
+  },
+  {
+   "nom": "Modélisation Revit",
+   "coul": "rouge"
+  }
+ ]
+}
